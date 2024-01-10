@@ -1,5 +1,6 @@
 --- LIST OF TABLES IN A DATABASE
---USE `mysql_database_name`;
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
+USE hbtn_0c_0;
 SHOW TABLES;
 
 
