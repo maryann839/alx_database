@@ -1,9 +1,9 @@
 -- list of cities of california inside the database hbtn_0d_usa
-
+-- the cities will appear in ascending order
 USE hbtn_0d_usa;
 
 
-SELECT cities.id, cities.name
+SELECT id, name
    FROM cities
   WHERE state_id IN
     (SELECT id 
