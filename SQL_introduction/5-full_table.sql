@@ -1,3 +1,2 @@
 -- description of FULLTABLE
-SHOW FULL TABLES;
-
+SHOW CREATE TABLE first_table;
